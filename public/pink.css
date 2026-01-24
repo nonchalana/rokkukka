@@ -12,6 +12,20 @@ body {
   font-family: windows;
 }
 
+html::-webkit-scrollbar {
+  height: 3px;
+  width: 3px;
+}
+
+html::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: #763231;
+  height: 3px;
+}
+
+html::-webkit-scrollbar-corner {
+  height: 3px;
+}
 @font-face{
   font-family: windows;
   src: url("W95FA.otf");
@@ -414,3 +428,4 @@ h3 {
 		-webkit-animation-delay: 4s, 2.5s;
 		animation-delay: 4s, 2.5s
 	}
+
