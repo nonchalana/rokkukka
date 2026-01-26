@@ -23,7 +23,7 @@ html::before{
 	url("pinklacediv.png") url("pinklacediv.png") 
 	url("pinklacediv.png") url("pinklacediv.png") 
 	url("pinklacediv.png");
-	width: 70%;
+	width: 10px;
 }
 
 body::-webkit-scrollbar {
@@ -442,6 +442,7 @@ h3 {
 		-webkit-animation-delay: 4s, 2.5s;
 		animation-delay: 4s, 2.5s
 	}
+
 
 
 
