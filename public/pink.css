@@ -21,14 +21,9 @@ html::before{
     left: 0;
     right: 0;
     top: 0;
-    z-index: 10000;
     background-image: url("pinklacediv.png");
     background-attachment: fixed;
-    background-size: 184px, 40px;
     background-repeat: repeat-x;
-    background-color: none;
-    gap: 0px;
-    padding: 0px;
 }
 
 body::-webkit-scrollbar {
@@ -447,6 +442,7 @@ h3 {
 		-webkit-animation-delay: 4s, 2.5s;
 		animation-delay: 4s, 2.5s
 	}
+
 
 
 
