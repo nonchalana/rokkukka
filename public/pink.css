@@ -12,7 +12,7 @@ body {
   font-family: windows;
 }
 
-body::before{
+html::before{
   content: url("pinklacediv.png");
 }
 
@@ -432,6 +432,7 @@ h3 {
 		-webkit-animation-delay: 4s, 2.5s;
 		animation-delay: 4s, 2.5s
 	}
+
 
 
 
