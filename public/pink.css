@@ -104,6 +104,40 @@ body::-webkit-scrollbar-corner {
   display: inline-flex;
 }
 
+.wrap{
+	background: url("cupkaek.gif");
+	width: 100%;
+    height: 100%;
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	unicode-bidi: isolate;
+}
+
+.wrap h1{
+  position: absolute; 
+  bottom: -10px;
+  left: 5px;
+  font-family: spirit;
+  font-size: 30px;
+  color: rgb(117, 71, 40);
+  text-shadow: 3px 3px 0 white, -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white;
+  filter: drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
+}
+
+.lace{
+  position: absolute;
+  top: -10px;
+  left: 0;
+  background: url("pinklacediv.png");
+  width: 100%;
+  height: 36px;
+  background-repeat: repeat-x;
+  filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
+}
+
 b {
   font-size: 12px;
   color: #763231;
@@ -188,83 +222,53 @@ h3 {
   font-size: 12px;
   border: solid 7px;
   border-image: url("biscuitborder.png") 7 fill round;
-  height: 410px;
-  width: 606px;
+  width: 900px;
   padding: 8px;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-gap: 3px;
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-    "home, psych, ento, abt"
-    "mid, mid, mid, mid";
+	"top, top, top, top"
+    "nav, mid, mid, mid";
   justify-content: center;
+}
+
+.top{
+  grid-row-start: 1;
+  grid-area: 1 / 1 / 2 / 5;
+  height: 120px;
+  width: 100%;
 }
 
 .mid {
   background: #fffde8;
-  width: 606px;
-  height: 350px;
-  grid-area: "mid";
+  height: 100%;
+  width: 650px;
   grid-row-start: 2;
+  grid-column-start: 2;
+  grid-area: 2 / 2 / 3 / 5;
   border: solid 1px;
   border-color: #763231;
-  overflow: auto;
+  overflow: scroll;
+  overflow-x: hidden;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px 0px 10px 10px;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px 10px 10px 0px;
 }
 
-.home {
+.nav {
   background: #fffde8;
+  height: 100%;
   width: 150px;
-  height: 50px;
-  grid-area: "home";
-  grid-row-start: 1;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-area: 2 / 1 / 3 / 2;
   border: solid 1px;
   border-color: #763231;
   -moz-border-radius: 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
-  float: left;
-}
-
-.psych {
-  background: #fffde8;
-  width: 150px;
-  height: 50px;
-  grid-area: "psych";
-  grid-row-start: 1;
-  border: solid 1px;
-  border-color: #763231;
-  -webkit-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
-  float: left;
-}
-
-.ento {
-  background: #fffde8;
-  width: 150px;
-  height: 50px;
-  grid-area: "ento";
-  grid-row-start: 1;
-  border: solid 1px;
-  border-color: #763231;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
-  float: left;
-}
-
-.abt {
-  background: #fffde8;
-  width: 150px;
-  height: 50px;
-  grid-area: "abt";
-  grid-row-start: 1;
-  border: solid 1px;
-  border-color: #763231;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 10px;
   float: left;
 }
 
@@ -446,13 +450,3 @@ width: 606px;
 		-webkit-animation-delay: 4s, 2.5s;
 		animation-delay: 4s, 2.5s
 	}
-
-
-
-
-
-
-
-
-
-
