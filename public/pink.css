@@ -222,7 +222,7 @@ h3 {
   font-size: 12px;
   border: solid 7px;
   border-image: url("biscuitborder.png") 7 fill round;
-  width: 900px;
+  width: 810px;
   padding: 8px;
   display: grid;
   grid-gap: 3px;
