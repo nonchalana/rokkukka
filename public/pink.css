@@ -136,6 +136,7 @@ body::-webkit-scrollbar-corner {
   height: 36px;
   background-repeat: repeat-x;
   filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
+  border-radius: 10px 10px 0px 0px;
 }
 
 b {
@@ -252,7 +253,7 @@ h3 {
   grid-area: 2 / 2 / 3 / 5;
   border: solid 1px;
   border-color: #763231;
-  overflow: scroll;
+  overflow: auto;
   overflow-x: hidden;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px 0px 10px 10px;
