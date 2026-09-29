@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  color: #f2b2cf;
+  color: #763231;
   background: url("pinkietile.jpg");
   font-family: windows;
 }
@@ -199,7 +199,7 @@ a {
 
 a:hover {
   cursor: url(bflutter.png), auto;
-  color: #fffde8;
+  color: #763231;
 }
 
 h1 {
