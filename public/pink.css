@@ -245,7 +245,7 @@ h3 {
 }
 
 .mid {
-  background: #fffde8;
+  background: #f2b2cf;
   height: 100%;
   width: 650px;
   grid-row-start: 2;
@@ -261,7 +261,7 @@ h3 {
 }
 
 .nav {
-  background: #fffde8;
+  background: #f2b2cf;
   height: 100%;
   width: 150px;
   grid-row-start: 2;
