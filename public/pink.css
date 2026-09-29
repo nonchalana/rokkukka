@@ -140,7 +140,7 @@ justify-content: center;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 125px;
+	bottom: -3px;
 	unicode-bidi: isolate;
 }
 
@@ -271,6 +271,7 @@ h3 {
   width: 810px;
   height: 522.5px;
   padding: 5.5px;
+  padding-top: 2px;
   padding-bottom: 8px;
   display: grid;
   grid-gap: 3px;
@@ -288,7 +289,7 @@ h3 {
   grid-row-start: 1;
   grid-area: 1 / 1 / 2 / 5;
   font-family: spirit;
-  height: 120px;
+  height: 123px;
   width: 100%;
 }
 
