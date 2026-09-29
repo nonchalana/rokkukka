@@ -121,7 +121,7 @@ body::-webkit-scrollbar-corner {
 	unicode-bidi: isolate;
 }
 
-.wrap h1{
+h1{
   position: absolute; 
   bottom: -10px;
   left: 5px;
