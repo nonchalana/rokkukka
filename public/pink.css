@@ -84,7 +84,7 @@ ul{
 }
 
 .links{
-left: 0;
+justify-content: center;
 }
 
 .list{
