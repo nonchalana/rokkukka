@@ -50,6 +50,11 @@ body::-webkit-scrollbar-corner {
   src: url(PLANM___.TTF);
 }
 
+@font-face {
+    font-family: spirit;
+    src: url(Spirit.ttf);
+}
+
 .catt{
     width: 20px;
 }
@@ -239,6 +244,7 @@ h3 {
   padding-top: 10px;
   grid-row-start: 1;
   grid-area: 1 / 1 / 2 / 5;
+  font-family: spirit;
   height: 120px;
   width: 100%;
 }
