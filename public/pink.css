@@ -279,6 +279,7 @@ h3 {
   grid-column-start: 2;
   grid-area: 2 / 2 / 3 / 5;
   border: solid 1px;
+  border-top: none;
   border-color: #763231;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -293,6 +294,7 @@ h3 {
   grid-column-start: 1;
   grid-area: 2 / 1 / 3 / 2;
   border: solid 1px;
+  border-top: none;
   border-color: #763231;
   -moz-border-radius: 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
