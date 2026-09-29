@@ -312,6 +312,11 @@ h3 {
 width: 606px;
 }
 
+.buttonz:img{
+	width: 99px;
+	height: 56px;
+}
+
 #statuscafe {
     color: #763231;
     font-size: 10px;
