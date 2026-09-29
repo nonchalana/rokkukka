@@ -121,7 +121,7 @@ body::-webkit-scrollbar-corner {
 	unicode-bidi: isolate;
 }
 
-h1{
+.wrap h1{
   position: absolute; 
   bottom: -10px;
   left: 5px;
@@ -167,6 +167,7 @@ a:hover {
 }
 
 h1 {
+  font-family: spirit;
   font-size: 26px;
   color: #f2b2cf;
 }
