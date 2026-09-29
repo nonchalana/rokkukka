@@ -302,11 +302,10 @@ h3 {
 
 .c2{
 	display: grid;
-  grid-template-columns: 220px 1fr 220px;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas: 
-                       "left, right .";
-  grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+	grid-template-areas: "left, right";
+    gap: 3px;
 }
 
 .left{
