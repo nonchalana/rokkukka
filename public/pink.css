@@ -141,7 +141,7 @@ justify-content: center;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	padding-bottom: -5px;
+	padding-bottom: 125px;
 	unicode-bidi: isolate;
 }
 
@@ -158,7 +158,7 @@ justify-content: center;
 .lace{
   position: absolute;
   top: -10px;
-  left: 0;
+  left: -.8px;
   background: url("pinklacediv.png");
   width: 100%;
   height: 36px;
@@ -166,7 +166,6 @@ justify-content: center;
   filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
   border: solid 1px;
   border-color: #763231;
-  border-bottom: none;
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -259,6 +258,7 @@ h3 {
   border-image: url("biscuitborder.png") 7 fill round;
   width: 810px;
   padding: 5.5px;
+  padding-bottom: 8px;
   display: grid;
   grid-gap: 3px;
   grid-template-columns: repeat(4, 1fr)
@@ -271,7 +271,7 @@ h3 {
 
 .top{
   border-radius: 10px 10px 0px 0px;
-  padding-top: 10px;
+  padding-top: 11px;
   grid-row-start: 1;
   grid-area: 1 / 1 / 2 / 5;
   font-family: spirit;
