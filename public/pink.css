@@ -132,6 +132,9 @@ justify-content: center;
 	background: url("cupkaek.gif");
 	width: 100%;
     height: 100%;
+	border: solid 1px;
+	border-color: #763231;
+	border-bottom: none;
 	position: relative;
 	display: block;
 	box-sizing: border-box;
@@ -159,6 +162,9 @@ justify-content: center;
   height: 36px;
   background-repeat: repeat-x;
   filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
+  border: solid 1px;
+  border-color: #763231;
+  border-bottom: none;
   border-radius: 10px 10px 0px 0px;
 }
 
