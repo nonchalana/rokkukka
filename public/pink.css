@@ -193,13 +193,13 @@ p {
 a {
   font-weight: bold;
   font-size: 10px;
-  color: #ffffff;
+  color: #824140;
   font-family: windows;
 }
 
 a:hover {
   cursor: url(bflutter.png), auto;
-  color: #fffafd;
+  color: #ffffff;
 }
 
 h1 {
