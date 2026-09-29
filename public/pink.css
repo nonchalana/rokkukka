@@ -79,6 +79,15 @@ body::-webkit-scrollbar-corner {
   width: 50px;
 }
 
+.links{
+	text-align:center;
+}
+
+.list{
+	display: inline-block;
+	text-align: left;
+}
+
 .favsites{
     text-align: center;
     position: fixed;
