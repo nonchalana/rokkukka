@@ -297,6 +297,7 @@ h3 {
   grid-row-start: 2;
   grid-column-start: 2;
   grid-area: 2 / 2 / 3 / 5;
+  overflow: auto;
   border: solid 1px;
   border-top: none;
   border-color: #763231;
