@@ -55,6 +55,12 @@ body::-webkit-scrollbar-corner {
     src: url(Spirit.ttf);
 }
 
+.paw{
+	width: 10px;
+	height: 10px;
+	padding: 3px;
+}
+
 .catt{
     width: 20px;
 }
