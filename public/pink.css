@@ -267,6 +267,7 @@ h3 {
   border: solid 7px;
   border-image: url("biscuitborder.png") 7 fill round;
   width: 810px;
+  height: 522.5px;
   padding: 5.5px;
   padding-bottom: 8px;
   display: grid;
