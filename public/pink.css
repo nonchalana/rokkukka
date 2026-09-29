@@ -80,7 +80,7 @@ body::-webkit-scrollbar-corner {
     top: 150px;
 }
 
-.tab {
+.button {
   text-align: center;
   font-family: windows;
   font-size: 10px;
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-corner {
   width: 75px;
 }
 
-.tab:hover {
+.button:hover {
   text-align: center;
   font-family: windows;
   font-size: 10px;
