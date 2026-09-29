@@ -141,6 +141,7 @@ justify-content: center;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	padding-bottom: -5px;
 	unicode-bidi: isolate;
 }
 
@@ -257,7 +258,7 @@ h3 {
   border: solid 7px;
   border-image: url("biscuitborder.png") 7 fill round;
   width: 810px;
-  padding: 0;
+  padding: 5.5px;
   display: grid;
   grid-gap: 3px;
   grid-template-columns: repeat(4, 1fr)
