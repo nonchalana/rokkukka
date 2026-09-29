@@ -170,6 +170,8 @@ h1 {
   font-family: spirit;
   font-size: 26px;
   color: #f2b2cf;
+  text-shadow: 3px 3px 0 white, -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white;
+  filter: drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
 }
 
 h3 {
