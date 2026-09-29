@@ -169,6 +169,17 @@ justify-content: center;
   border-radius: 10px 10px 0px 0px;
 }
 
+.lacemid{
+  position: absolute;
+  top: -10px;
+  left: -.8px;
+  background: url("pinklacediv.png");
+  width: 100%;
+  height: 36px;
+  background-repeat: repeat-x;
+  filter: brightness(115%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
+}
+
 b {
   font-size: 12px;
   color: #763231;
