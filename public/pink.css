@@ -79,6 +79,10 @@ body::-webkit-scrollbar-corner {
   width: 50px;
 }
 
+ul{
+	list-style-type: none
+}
+
 .links{
 	text-align:center;
 }
