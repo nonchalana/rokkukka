@@ -135,7 +135,6 @@ justify-content: center;
 	border: solid 1px;
 	border-radius: 10px 10px 0px 0px;
     border-color: #763231;
-	border-bottom: none;
 	position: relative;
 	display: block;
 	box-sizing: border-box;
@@ -165,6 +164,7 @@ justify-content: center;
   background-repeat: repeat-x;
   filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
   border: solid 1px;
+  border-bottom: none;
   border-color: #763231;
   border-radius: 10px 10px 0px 0px;
 }
