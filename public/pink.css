@@ -168,7 +168,7 @@ a:hover {
 
 h1 {
   font-family: spirit;
-  font-size: 26px;
+  font-size: 20px;
   color: rgb(135, 94, 64);
   text-shadow: 3px 3px 0 white, -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white;
   filter: drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
