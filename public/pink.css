@@ -300,6 +300,25 @@ h3 {
   float: left;
 }
 
+.c2{
+	display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+                       "left, right .";
+  grid-gap: 3px;
+}
+
+.left{
+	grid-area: left;	
+	width: 350px;
+}
+
+.right{
+	grid-area: right;
+	width: 350px;
+}
+
 .text01::-webkit-scrollbar {
   height: 3px;
   width: 3px;
