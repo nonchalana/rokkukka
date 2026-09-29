@@ -162,7 +162,6 @@ justify-content: center;
   width: 100%;
   height: 36px;
   background-repeat: repeat-x;
-  filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
   border: solid 1px;
   border-bottom: none;
   border-color: #763231;
@@ -177,7 +176,7 @@ justify-content: center;
   width: 100%;
   height: 36px;
   background-repeat: repeat-x;
-  filter: brightness(115%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
+  filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
 }
 
 b {
