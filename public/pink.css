@@ -300,24 +300,6 @@ h3 {
   float: left;
 }
 
-.c2{
-	display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-	grid-template-areas: "left, right";
-    gap: 3px;
-}
-
-.left{
-	grid-area: left;	
-	width: 350px;
-}
-
-.right{
-	grid-area: right;
-	width: 350px;
-}
-
 .text01::-webkit-scrollbar {
   height: 3px;
   width: 3px;
