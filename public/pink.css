@@ -89,7 +89,6 @@ body::-webkit-scrollbar-corner {
   border-radius: 10px;
   border-color: #763231;
   background: linear-gradient(#f2b2cf, white, #f2b2cf);
-  padding-bottom: 2px;
   width: 75px;
 }
 
@@ -102,7 +101,6 @@ body::-webkit-scrollbar-corner {
   border-radius: 10px;
   border-color: #763231;
   background: linear-gradient(#763231, white, #763231);
-  padding-bottom: 2px;
   width: 75px;
 }
 
