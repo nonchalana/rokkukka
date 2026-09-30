@@ -142,6 +142,7 @@ justify-content: center;
 	padding: 0;
 	bottom: -3px;
 	unicode-bidi: isolate;
+	filter: brightness(110%) drop-shadow(1px 1px 0px rgba(128, 128, 128, 0.322));
 }
 
 .wrap h1{
