@@ -257,6 +257,17 @@ h3 {
   color: #763231;
   font-size: 12px;
   border: solid 7px;
+  border-image: url("brownbiscuit.gif") 7 fill round;
+  height: 100px;
+  width: 100px;
+  padding: 8px;
+  overflow: scroll;
+}
+
+.text02 {
+  color: #763231;
+  font-size: 12px;
+  border: solid 7px;
   border-image: url("biscuitborder.png") 7 fill round;
   height: 100px;
   width: 100px;
