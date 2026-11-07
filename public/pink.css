@@ -55,6 +55,11 @@ body::-webkit-scrollbar-corner {
     src: url(Spirit.ttf);
 }
 
+.piclog
+    width:100%;
+    max-width:150px;
+}
+
 .paw{
 	width: 10px;
 	height: 10px;
